@@ -42,3 +42,16 @@ for (let value of numFor) {
 const numMap = [10, 20, 30]; 
 const newMap = numMap.map(valx => valx * 2); 
 console.log(newMap); 
+
+
+
+const subjects = ["Maths", "Science", "Polity", "History"];
+let i = 0;
+let len = subjects.length;
+let gfg = "";
+for (; i < len;) {
+    gfg += subjects[i + ''];
+    //can be increased inside loop
+    i++;
+}
+console.log(gfg)
