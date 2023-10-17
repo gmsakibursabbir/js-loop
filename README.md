@@ -155,7 +155,7 @@ Output:
 
 6. ### Map loop
 
-A ` forEach loop` is a method on arrays that creates a new array by executing a function on each element in the array.
+A `map loop` is a method on arrays that creates a new array by executing a function on each element in the array.
 
 Javascript:
 
